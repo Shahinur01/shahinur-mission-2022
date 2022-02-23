@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.display-flex{
+    display: flex;
+}
+.top-banner{
+    margin-top:150px;
+}
+.top-banner p{
+    font-size:20px;
+}
+.color-btn{
+    color: #3A678D;
+}
+.link-btn{
+    padding: 20px 40px;
+    /* margin-top: 20px; */
+    background-color: purple;
+    text-decoration: none;
+    border-radius:5px;
+    color: white;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+
+}
+.left-banner{
+    border-left: 4px solid red;
+    padding-left: 15px; 
+}
+.left-banner h1{
+    padding-bottom: 20px;
+}
+h1{
+    font-size:65px;
+    font-weight:bold;
+
+}
+/* mission part 1 */
+.box-shadow1{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin:20px;
+    border-radius:10px;
+    background-color: rgba(71, 42, 19,0.5);
+    padding:25px;
+}
+.box-shadow1 img{
+    width:50%;
+    
+}
+.box-shadow2{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin:20px;
+    border-radius:10px;
+    background-color: rgba(150, 90, 90, 0.5);
+    padding:25px;
+    
+}
+.box-shadow2 img{
+    width:50%;
+}
+.box-shadow3 img{
+    width:50%;
+}
+.box-shadow3{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin:20px;
+    background-color: rgba(20, 12, 12, 0.5);
+    border-radius:10px;
+    padding:25px;
+}
+
+/* corona part start */
+.app-picture{
+    max-width: 70%;
+    max-height:70%;
+    
+}
+.corona{
+    margin-top:100px;
+}
+/* corona part end */
+
+/* last part start*/
+.last-section{
+    background-color: black;
+    height:150px;
+    margin-top:60px;
+    
+
+}
+.last-section-title{
+    text-align: center;
+}
+/* last part end*/
