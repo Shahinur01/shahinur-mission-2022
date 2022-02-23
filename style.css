@@ -32,9 +32,15 @@
 .half-width{
     width: 50%;
 }
+.half-width p{
+    width:100%;
+}
 .half-width img{
     width: 100%;
 
+}
+section{
+    margin-top: 50px;
 }
 .left-banner{
     border-left: 4px solid red;
@@ -52,7 +58,7 @@ h1{
 .box-shadow1{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     margin:20px;
-    border-radius:10px;
+    border-radius:20px;
     background-color: rgba(71, 42, 19,0.5);
     padding:25px;
 }
@@ -63,7 +69,7 @@ h1{
 .box-shadow2{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     margin:20px;
-    border-radius:10px;
+    border-radius:20px;
     background-color: rgba(150, 90, 90, 0.5);
     padding:25px;
     
@@ -78,9 +84,40 @@ h1{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     margin:20px;
     background-color: rgba(20, 12, 12, 0.5);
-    border-radius:10px;
+    border-radius:20px;
     padding:25px;
 }
+.my-mission{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* mission part end*/
+
+/* global-part start */
+.global-part {
+    margin-top: 100px;
+}
+.global-part h2 {
+    font-size:40px;
+    padding:10px 0px;
+}
+
+/* global-part end */
+
+/* developer-side start*/
+.developer-side{
+    margin-top: 70px;
+}
+.developer-side h2 {
+    font-size:40px;
+}
+.devloper-img{
+    background-image: url("images/pictures/dream-bg.png");
+    background-repeat: no-repeat;
+    /* background-size: 350px;
+    background-position-y: 1000px; */
+}
+/* developer-side end*/
 
 /* corona part start */
 .app-picture{
