@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 .container{
     width: 80%;
@@ -45,6 +46,7 @@ section{
 .left-banner{
     border-left: 4px solid red;
     padding-left: 15px; 
+
 }
 .left-banner h1{
     padding-bottom: 20px;
@@ -114,31 +116,109 @@ h1{
 .devloper-img{
     background-image: url("images/pictures/dream-bg.png");
     background-repeat: no-repeat;
-    /* background-size: 350px;
-    background-position-y: 1000px; */
+    /* background-position: right ; */
+    
 }
 /* developer-side end*/
 
 /* corona part start */
 .app-picture{
-    max-width: 70%;
-    max-height:70%;
+   max-width: 95%;
+   border-radius:20px;
+   box-shadow: 24px 24px 22px 21px rgba(51, 31, 31, 0.5);
     
 }
-.corona{
+.omicron{
     margin-top:100px;
+    height: 80vh;
 }
-/* corona part end */
+input[type=text],select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=email],select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: purple;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  input[type=number],select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  
+  input[type=submit]:hover {
+    background-color: #3A678D;
+  }
+  
+  /* .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+   */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.contact-form{
+    box-shadow: 24px 24px 22px 21px rgba(51, 31, 31, 0.5);
+    max-width: 100%;
+    height:65%;
+    border-radius:20px;
+    padding:20px
+}
+  
+/* omicron part end */
 
 /* last part start*/
 .last-section{
     background-color: black;
-    height:150px;
+    height:200px;
     margin-top:60px;
-    
-
+    align-items: center;
+    padding: 60px 0px;
 }
 .last-section-title{
     text-align: center;
+}
+.last-section-title p{
+    margin: 20px 0;
 }
 /* last part end*/
