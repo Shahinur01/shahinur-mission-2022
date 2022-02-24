@@ -123,7 +123,8 @@ h1{
 
 /* corona part start */
 .app-picture{
-   max-width: 95%;
+   max-width: 90%;
+   height: 65%;
    border-radius:20px;
    box-shadow: 24px 24px 22px 21px rgba(51, 31, 31, 0.5);
     
@@ -173,12 +174,6 @@ input[type=text],select, textarea {
     background-color: #3A678D;
   }
   
-  /* .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-   */
   .col-25 {
     float: left;
     width: 25%;
@@ -215,10 +210,20 @@ input[type=text],select, textarea {
     align-items: center;
     padding: 60px 0px;
 }
-.last-section-title{
+.last-section-title {
     text-align: center;
+    
+}
+.last-section-title h1 {
+   font-size:30px;
+    
 }
 .last-section-title p{
     margin: 20px 0;
+}
+.mission1{
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
 }
 /* last part end*/
